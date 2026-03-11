@@ -4,5 +4,47 @@
     --background-color: #3D3D3D;
     --main-text-color: #FFFFFF;
     --secondary-text-color: #ECA60E;
-    --fonte-principal: 'F(MyE)Wild Words';
+    --button-color: #F37814;
+    --button-color-highlight: #C56517;
+    --main-font: 'F(MyE)Wild Words';
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--main-text-color);
+    font-family: var(--main-font);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.main__section {
+    background-image: url("/img/manga_pages_background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.main__section__box {
+    margin: 0 6em;
+}
+
+.section__title {
+    
+}
+
+.section__logo {
+    max-width: 35%;
+    height: auto;
 }
